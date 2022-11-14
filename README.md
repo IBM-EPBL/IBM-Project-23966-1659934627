@@ -1,3 +1,16 @@
 # IBM-Project-23966-1659934627
-![image](https://user-images.githubusercontent.com/85212706/201644894-0efa4d01-39f3-46e0-9aab-5245e747ff5b.png)
-#Detecting Parkinson’s Disease using Machine Learning
+<img src="https://www.freepnglogos.com/uploads/ibm-logo-png/ibm-logo-png-transparent-svg-vector-bie-supply-3.png" width="60%" />
+
+# Detecting Parkinson’s Disease using Machine Learning
+
+Team ID : PNT2022TMID05881
+
+Team Size : 4
+
+Team Leader : Vaishnavi S
+
+Team member : Subapriya M
+
+Team member : Thareni Sree M
+
+Team member : Shanmugapriya G
