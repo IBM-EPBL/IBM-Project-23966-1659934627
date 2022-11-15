@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+
+{% block head%} {% endblock %}
+
+{% block navbar %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parkinson disease</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #04AA6D;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>PREVENTION IS BETTER THAN CURE!</b></h1>
+      <h1 class="large-font" style="color:MediumSeaGreen;"><b>Nothing..Just Listen.</b></h1>
+      <p><span style="font-size:36px">Prevention.</span> Parkinson’s disease is a neurological condition with a wide range of effects, including problems with movement, blood pressure and thinking, and mood, sensory, and sleep difficulties.
+
+        The symptoms of Parkinson’s disease (PD) usually begin gradually, and they affect each person differently. The symptoms a person has will vary widely, regardless of how severe they are or how quickly they develop.</p>
+      <button class="button">Stay Healthy</button>
+    </div>
+    <div class="column-33">
+        <img src="https://www.researchgate.net/publication/359907216/figure/fig1/AS:11431281080266502@1661220923150/Symptoms-of-Parkinsons-disease.png" width="500" height="800">
+    </div>
+  </div>
+</div>
+</body>
+</html>
+</body>
+</html>
+
+{% endblock %}

@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+
+{% block head%} {% endblock %}
+
+{% block navbar %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parkinson disease</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #04AA6D;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="https://protectyourwealth.ca/wp-content/uploads/2022/03/life-insurance-with-Parkinsons-disease-in-canada.png" alt="App" width="800" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>PARKINSON DISEASE DETECTION</b></h1>
+      <h1 class="large-font" style="color:red;"><b>Being Physically Fit Is A Choice!</b></h1>
+      <p><span style="font-size:24px">Parkinson's disease is a progressive disorder that affects the nervous system and the parts of the body controlled by the nerves. Symptoms start slowly. The first symptom may be a barely noticeable tremor in just one hand. Tremors are common, but the disorder may also cause stiffness or slowing of movement.</p>
+      <button class="button" style="background-color:red">Live In The Moment</button>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+
+{% endblock %}
+
